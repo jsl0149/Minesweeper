@@ -9,7 +9,7 @@ class Gubne extends ChickenAbs {
 
 	@Override
 	void printName() {
-		System.out.printf("%30s","¾î¼­¿À¼¼¿ä ±Á³×Ä¡Å²ÀÔ´Ï´Ù\n");
+		System.out.printf("%30s","ì–´ì„œì˜¤ì„¸ìš” êµ½ë„¤ì¹˜í‚¨ì…ë‹ˆë‹¤\n");
 		// TODO Auto-generated method stub
 		
 	}
@@ -17,9 +17,9 @@ class Gubne extends ChickenAbs {
 	@Override
 	void Menu() {
 		// TODO Auto-generated method stub
-		System.out.printf("%30s", "¸Ş´º¸¦ ¼±ÅÃÇØÁÖ¼¼¿ä\n");
+		System.out.printf("%30s", "ë©”ë‰´ë¥¼ ì„ íƒí•´ì£¼ì„¸ìš”\n");
 		System.out.printf("%30s","-----------------------------------------\n");
-		System.out.printf("%30s","1.¿À¸®Áö³¯   2.°íÃß¹Ù»ç»è    3.°¥ºñÃµ¿Õ \n");
+		System.out.printf("%30s","1.ì˜¤ë¦¬ì§€ë‚    2.ê³ ì¶”ë°”ì‚¬ì‚­    3.ê°ˆë¹„ì²œì™• \n");
 		System.out.printf("%30s","-----------------------------------------\n");
 		
 		
@@ -30,11 +30,11 @@ class Gubne extends ChickenAbs {
 		
 		switch(Choice) {
 		
-		case 1 : System.out.println(super.name + " ¿À¸®Áö³¯À» ÁÖ¹®ÇÏ¼Ì½À´Ï´Ù.");
+		case 1 : System.out.println(super.name + " ì˜¤ë¦¬ì§€ë‚ ì„ ì£¼ë¬¸í•˜ì…¨ìŠµë‹ˆë‹¤.");
 		         break;
-		case 2 : System.out.println(super.name + " °íÃß¹Ù»ç»èÀ» ÁÖ¹®ÇÏ¼Ì½À´Ï´Ù.");
+		case 2 : System.out.println(super.name + " ê³ ì¶”ë°”ì‚¬ì‚­ì„ ì£¼ë¬¸í•˜ì…¨ìŠµë‹ˆë‹¤.");
 				 break;
-		case 3 : System.out.println(super.name + " °¥ºñÃµ¿ÕÀ» ÁÖ¹®ÇÏ¼Ì½À´Ï´Ù.");
+		case 3 : System.out.println(super.name + " ê°ˆë¹„ì²œì™•ì„ ì£¼ë¬¸í•˜ì…¨ìŠµë‹ˆë‹¤.");
         		 break;
 		
 		}
