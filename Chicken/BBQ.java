@@ -8,20 +8,20 @@ class BBQ extends ChickenAbs{
 		// TODO Auto-generated constructor stub
 	}
 	
-    enum menus{ È²±İ¿Ã¸®ºê , ¾ç³äÄ¡Å² , ÀÚ¸ŞÀÌÄ« };
+    enum menus{ í™©ê¸ˆì˜¬ë¦¬ë¸Œ , ì–‘ë…ì¹˜í‚¨ , ìë©”ì´ì¹´ };
     
 	@Override
 	void printName() {
-		System.out.printf("%30s","¾î¼­¿À¼¼¿ä BBQÀÔ´Ï´Ù\n");
+		System.out.printf("%30s","ì–´ì„œì˜¤ì„¸ìš” BBQì…ë‹ˆë‹¤\n");
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	void Menu() {
-		System.out.printf("%30s", "¸Ş´º¸¦ ¼±ÅÃÇØÁÖ¼¼¿ä\n");
+		System.out.printf("%30s", "ë©”ë‰´ë¥¼ ì„ íƒí•´ì£¼ì„¸ìš”\n");
 		System.out.printf("%30s","-----------------------------------------\n");
-		System.out.printf("%30s","1.È²±İ¿Ã¸®ºê   2.¾ç³äÄ¡Å²   3.ÀÚ¸ŞÀÌÄ­\n");
+		System.out.printf("%30s","1.í™©ê¸ˆì˜¬ë¦¬ë¸Œ   2.ì–‘ë…ì¹˜í‚¨   3.ìë©”ì´ì¹¸\n");
 		System.out.printf("%30s","-----------------------------------------\n");
 		
 		Scanner sc = new Scanner(System.in);
@@ -31,11 +31,11 @@ class BBQ extends ChickenAbs{
 		
 		switch(Choice) {
 		
-		case 1 : System.out.println(super.name + " È²±İ¿Ã¸®ºê¸¦ ÁÖ¹®ÇÏ¼Ì½À´Ï´Ù.");
+		case 1 : System.out.println(super.name + " í™©ê¸ˆì˜¬ë¦¬ë¸Œë¥¼ ì£¼ë¬¸í•˜ì…¨ìŠµë‹ˆë‹¤.");
 		         break;
-		case 2 : System.out.println(super.name + " ¾ç³äÄ¡Å²À» ÁÖ¹®ÇÏ¼Ì½À´Ï´Ù.");
+		case 2 : System.out.println(super.name + " ì–‘ë…ì¹˜í‚¨ì„ ì£¼ë¬¸í•˜ì…¨ìŠµë‹ˆë‹¤.");
 				 break;
-		case 3 : System.out.println(super.name + " ÀÚ¸ŞÀÌÄ­À» ÁÖ¹®ÇÏ¼Ì½À´Ï´Ù.");
+		case 3 : System.out.println(super.name + " ìë©”ì´ì¹¸ì„ ì£¼ë¬¸í•˜ì…¨ìŠµë‹ˆë‹¤.");
         		 break;
 		
 		}
