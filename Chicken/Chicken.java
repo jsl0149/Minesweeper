@@ -42,7 +42,7 @@ public class Chicken {
 		Gubne = new Gubne("Gubne");
 		BBQ = new BBQ("BBQ");
 		
-		System.out.println("1. BBQ 2. ±Á³× Á¾·áÇÏ·Á¸é -1À» ÀÔ·ÂÇÏ¼¼¿ä");
+		System.out.println("1. BBQ 2. êµ½ë„¤ ì¢…ë£Œí•˜ë ¤ë©´ -1ì„ ì…ë ¥í•˜ì„¸ìš”");
 		
 		Scanner sc = new Scanner(System.in);
 		
@@ -52,7 +52,7 @@ public class Chicken {
 		
         while(!isNumber(Choice)) {
         	
-        	System.out.print("¼ıÀÚ°¡ ¾Æ´Õ´Ï´Ù ´Ù½Ã ÀÔ·ÂÇÏ¼¼¿ä: ");
+        	System.out.print("ìˆ«ìê°€ ì•„ë‹™ë‹ˆë‹¤ ë‹¤ì‹œ ì…ë ¥í•˜ì„¸ìš”: ");
         	
         	Choice = sc.nextLine();
         	
@@ -80,7 +80,7 @@ public class Chicken {
 			
 			 while(!isNumber(Choice)) {
 		        	
-		        	System.out.print("¼ıÀÚ°¡ ¾Æ´Õ´Ï´Ù ´Ù½Ã ÀÔ·ÂÇÏ¼¼¿ä: ");
+		        	System.out.print("ìˆ«ìê°€ ì•„ë‹™ë‹ˆë‹¤ ë‹¤ì‹œ ì…ë ¥í•˜ì„¸ìš”: ");
 		        	
 		        	Choice = sc.nextLine();
 		        	
@@ -91,7 +91,7 @@ public class Chicken {
 		}	
 		
 		
-		System.out.println("ÀÌ¿ëÇØÁÖ¼Å¼­ °¨»çÇÕ´Ï´Ù");
+		System.out.println("ì´ìš©í•´ì£¼ì…”ì„œ ê°ì‚¬í•©ë‹ˆë‹¤");
 		
 	}
 
